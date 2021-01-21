@@ -29,7 +29,7 @@ var Sanya = {
     },
     random_rjomba: function() {
         if (rjomba_idet == "net") {
-            //Получим все ржомбы со страницы, чтобы не хардкодить их каждый раз в js
+            //РџРѕР»СѓС‡РёРј РІСЃРµ СЂР¶РѕРјР±С‹ СЃРѕ СЃС‚СЂР°РЅРёС†С‹, С‡С‚РѕР±С‹ РЅРµ С…Р°СЂРґРєРѕРґРёС‚СЊ РёС… РєР°Р¶РґС‹Р№ СЂР°Р· РІ js
             var rjombs = [];
             var dick = document.getElementsByClassName('Button');
             for (var whore = 0; whore < dick.length - 1; whore++) {
@@ -48,7 +48,7 @@ var Sanya = {
     }
 };
 
-//Выше писал, что не хочу хардкодить и все равно хардкод. Мда.
+//Р’С‹С€Рµ РїРёСЃР°Р», С‡С‚Рѕ РЅРµ С…РѕС‡Сѓ С…Р°СЂРґРєРѕРґРёС‚СЊ Рё РІСЃРµ СЂР°РІРЅРѕ С…Р°СЂРґРєРѕРґ. РњРґР°.
 addEventListener("keydown", function(e) {
     switch (e.keyCode) {
         case 49:
@@ -73,4 +73,4 @@ addEventListener("keydown", function(e) {
 });
 
 
-//Зачем я живу
+//Р—Р°С‡РµРј СЏ Р¶РёРІСѓ
